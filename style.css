@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+ background-color: hsl(217, 54%, 11%);   
+ box-sizing: border-box;
+ font-family: "Outfit", sans-serif;
+}
+
+.card{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 300px;
+    max-height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.equilibrium{
+    position: relative;
+    width: 100%;
+    max-height: 258.5px;
+}
+
+.svgs{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: hsla(178, 100%, 50%, 0.522);
+    border-radius: 8px;
+    padding: 102.9px 105px;
+    opacity: 0;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+.svgs:hover {
+    opacity: 1;
+}
+
+h3, a{
+    color:hwb(0 100% 0%);
+}
+
+span{
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);  
+    font-weight: 500;
+}
+
+p{
+    color: hsl(215, 51%, 70%);  
+}
+
+hr{
+   border: 0.5px solid hsl(215, 32%, 27%);
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+    /* background-color: red; */
+}
+
+.time span:first-child{
+    display: flex;
+    color:hsl(178, 100%, 50%);
+}
+
+.time span:nth-child(2){
+    padding-left: 5px;
+    display: flex;
+}
+
+.avtarinfo{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.avtar{
+    width:30px;
+    height:30px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1px;
+    margin-left:0.4px;
+    border-radius: 50%;
+}
+
+.avtarinfo span{
+    margin-left: 20px;
+}
+
+h3:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+
+a:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
